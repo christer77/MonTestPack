@@ -31,8 +31,10 @@ $ composer require christer77/MonTestPack
 ## Usage
 
 ``` php
-$skeleton = new christer77\MonTestPack();
-echo $skeleton->echoPhrase('Hello, League!');
+// setup autoload
+require "vendor/autoload.php"
+$MonTestPack = new christer77\MonTestPack();
+echo $MonTestPack->echoPhrase('Hello, League!');
 ```
 
 ## Change log
