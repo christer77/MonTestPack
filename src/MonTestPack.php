@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace League\Skeleton;
+namespace christer77\MonTestPack;
 
-class SkeletonClass
+class MonTestPack
 {
     /**
-     * Create a new Skeleton Instance
+     * Create a new MonTestPack Instance
      */
     public function __construct()
     {

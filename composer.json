@@ -1,18 +1,18 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "christer77/MonTestPack",
     "type": "library",
-    "description": ":package_description",
+    "description": "ceci est un test de package",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "christer77",
+        "MonTestPack"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/christer77/MonTestPack",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "christer kahasha",
+            "email": "kahashachrister77@gmail.com",
+            "homepage": "https://github.com/christer77",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "christer77\\MonTestPack\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "christer77\\MonTestPack\\": "tests"
         }
     },
     "scripts": {
