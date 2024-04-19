@@ -26,6 +26,8 @@ Via Composer
 
 ``` bash
 $ composer require christer77/MonTestPack
+
+$ composer recreate-project christer77/MonTestPack
 ```
 
 ## Usage
